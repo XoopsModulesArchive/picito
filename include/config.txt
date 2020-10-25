@@ -1,0 +1,1 @@
+a:13:{s:5:"title";s:6:"Picito";s:5:"intro";s:39:"You can use this form to upload images.";s:6:"button";s:7:"Upload!";s:3:"png";s:2:"on";s:3:"gif";s:2:"on";s:3:"jpg";s:2:"on";s:6:"resize";s:0:"";s:6:"thumbw";s:3:"160";s:6:"thumbh";s:3:"160";s:6:"border";s:1:"1";s:11:"bordercolor";s:7:"#000000";s:7:"maxsize";s:4:"2000";s:7:"quality";s:3:"100";}

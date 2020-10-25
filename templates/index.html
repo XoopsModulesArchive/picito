@@ -1,0 +1,17 @@
+<h2 align="center"><{$moduletitle}></h2>
+
+<form enctype="multipart/form-data" action="upload.php" method="post">
+<table cellpadding="0" cellspacing="1" class="outer" width="100%">
+<{if $introtext != ''}>
+<tr>
+	<td class="even" align="center"><{$introtext}></td>
+</tr>
+<{/if}>
+<tr>
+	<td class="odd" align="center" style="padding: 30px">
+	<input type="file" name="file"><br><br>
+	<input type="submit" value="<{$upbutton}>" name="submit">
+	</td>
+</tr>
+</table>
+</form>

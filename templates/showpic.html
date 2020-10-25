@@ -1,0 +1,35 @@
+<table cellpadding="0" cellspacing="1" class="outer" width="100%">
+<tr>
+	<td class="head" align="center" colspan="2"><{$viewing}> <em><{$imagename}></em></td>
+</tr>
+<tr>
+	<td class="odd" align="center" style="padding: 30px" colspan="2">
+	<a href="<{$imageurl}>" target="_blank"><img src="<{$imagethumb}>" alt="Image"></a>
+	</td>
+</tr>
+<tr>
+	<td class="even" width="150"><{$filename}>:</td>
+	<td class="even"><{$imagename}></td>
+</tr>
+<tr>
+	<td class="even" width="150"><{$filesize}>:</td>
+	<td class="even"><{$realsize}></td>
+</tr>
+<tr>
+	<td class="even" width="150"><{$datetime}>:</td>
+	<td class="even"><{$realdate}></td>
+</tr>
+<tr>
+	<td class="even" width="150"><{$bbcode}>:</td>
+	<td class="even"><input type="text" value="[url=<{$imageurl}>][img]<{$imagethumb}>[/img][/url]"
+	onclick="javascript:this.focus(); this.select();"></td>
+</tr>
+<tr>
+	<td class="even" width="150"><{$html}>:</td>
+	<td class="even"><input type="text" 
+	value="&lt;a href=&quot;<{$imageurl}>&quot;&gt;&lt;img src=&quot;<{$imagethumb}>&quot; /&gt;&lt;/a&gt;"
+	onclick="javascript:this.focus(); this.select();"></td>
+</tr>
+</table>
+
+<p align="center"><a href="index.php"><{$backhome}></a></p>

@@ -1,0 +1,7 @@
+Install Instructions
+
+1. Upload the Picito directory to XOOPS_ROOT_URL/modules/
+
+2. Log in to your site as administrator.
+
+3. Install the module using the XOOPS module administration panel at 'System Admin -> Modules'.
